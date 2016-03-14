@@ -1,0 +1,30 @@
+#wrap {
+  width: 100%;
+  height: 100%;
+}
+
+div.pages {
+  display: none;
+}
+
+div.show {
+  display: block;
+}
+
+div.exit {
+  display: block;
+  position: absolute;
+  top:-100%;
+
+  transition: all .6s ease .15s;
+}
+
+div.enter {
+  top:0;
+
+  transition: all .6s ease .15s;
+}
+
+div.scrollable {
+  overflow: scroll;
+}
